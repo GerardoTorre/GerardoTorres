@@ -1,3 +1,64 @@
-html{
-    background-image: url("bloco.png");
+html {
+    background-color: rgb(3, 3, 20);
+    font-size: 20pt;
+    text-align: center;
+    font-family: ArnoPro-Regular, serif;
+}
+
+@font-face {
+    font-family: ArnoPro-Regular;
+    src: url("C:\Users\marti\Downloads\arno-pro\ArnoPro-Regular.otf");
+}
+
+h1 {
+    color: rgb(227, 228, 225);
+}
+
+h2 {
+    color: rgb(210, 214, 193);
+}
+
+h3 {
+    color: rgb(146, 144, 195);
+}
+
+#Caixa1 {
+    height: 200px;
+    width: 200px;
+    background-color: gold;
+}
+ul {
+    color: rgb(146, 144, 195);
+}
+#pfaixa {
+    background-color: blue;
+    position: absolute;
+    width: 760px;
+    height: 150px;
+    top: 380px;
+    left: 580px;
+}
+#sfaixa {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 760px;
+    height: 150px;
+    top: 530px;
+    left: 580px;
+}
+#tfaixa {
+    background-color: rgb(240, 240, 10);
+    position: absolute;
+    width: 760px;
+    height: 150px;
+    top: 680px;
+    left: 580px;
+}
+#vertfaixa {
+    background-color: red;
+    position: absolute;
+    width: 260px;
+    height: 450px;
+    top: 380px;
+    left: 580px;
 }
