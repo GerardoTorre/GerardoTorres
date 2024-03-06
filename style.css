@@ -10,8 +10,23 @@ html {
     src: url("C:\Users\marti\Downloads\arno-pro\ArnoPro-Regular.otf");
 }
 
+header {
+    color: rgb(227, 228, 225);
+    border-width: thick;
+    border: ridge;
+}
+header img{
+    width: 30pt;
+    height: 20pt;
+}
+
+p {
+    color: rgb(227, 228, 225);
+}
+
 h1 {
     color: rgb(227, 228, 225);
+    display: block;
 }
 
 h2 {
@@ -22,43 +37,35 @@ h3 {
     color: rgb(146, 144, 195);
 }
 
-#Caixa1 {
-    height: 200px;
-    width: 200px;
-    background-color: gold;
-}
-ul {
+li {
     color: rgb(146, 144, 195);
 }
-#pfaixa {
-    background-color: blue;
-    position: absolute;
-    width: 760px;
-    height: 150px;
-    top: 380px;
-    left: 580px;
+
+@media (max-width: 400px) {
+    #texto_principal {
+        width: 60px;
+    }
+    #entrevistas{
+        width: 60px;
+        font-style: italic;
+    }
+    #img1 {
+        width: 60px;
+        height: 60px;
+        float: left;
+    }
 }
-#sfaixa {
-    background-color: whitesmoke;
-    position: absolute;
-    width: 760px;
-    height: 150px;
-    top: 530px;
-    left: 580px;
+
+
+#texto_principal {
+    width: 360px;
 }
-#tfaixa {
-    background-color: rgb(240, 240, 10);
-    position: absolute;
-    width: 760px;
-    height: 150px;
-    top: 680px;
-    left: 580px;
+#entrevistas{
+    width: 360px;
+    font-style: italic;
 }
-#vertfaixa {
-    background-color: red;
-    position: absolute;
-    width: 260px;
-    height: 450px;
-    top: 380px;
-    left: 580px;
+#img1 {
+    float: left;
+    width: 360px;
+    height: 360px;
 }
