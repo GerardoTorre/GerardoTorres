@@ -40,32 +40,7 @@ h3 {
 li {
     color: rgb(146, 144, 195);
 }
-
-@media (max-width: 400px) {
-    #texto_principal {
-        width: 60px;
-    }
-    #entrevistas{
-        width: 60px;
-        font-style: italic;
-    }
-    #img1 {
-        width: 60px;
-        height: 60px;
-        float: left;
-    }
-}
-
-
-#texto_principal {
-    width: 360px;
-}
-#entrevistas{
-    width: 360px;
-    font-style: italic;
-}
-#img1 {
-    float: left;
-    width: 360px;
-    height: 360px;
+#enviar {
+    background-color:  rgb(146, 144, 195);
+    border-radius: 5px;
 }
