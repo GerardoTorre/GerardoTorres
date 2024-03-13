@@ -1,8 +1,6 @@
-function mudardecor(cor) {
-    butao.style.backgroundColor = cor;
+function rodarOTexto() {
+    let rodape = document.querySelector("Header");
+    rodape.style.transform = "rotate(100deg)"; // Aplicando uma rotação de 100 graus
 }
 
-var butao = document.getElementById("enviar");
-butao.onclick = function() {
-    mudardecor("red");
-};
+setInterval(rodarOTexto, 500);
